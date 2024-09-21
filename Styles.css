@@ -35,3 +35,25 @@ body {
     font-size: 18px;
     color: #666;
 }
+
+#error-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#error-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#error-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#error-list li:last-child {
+    border-bottom: none;
+}
