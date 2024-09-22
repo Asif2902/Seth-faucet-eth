@@ -1,5 +1,6 @@
 require('dotenv').config();
-const web3 = new Web3(window.ethereum);
+const web3 = new Web3(new Web3.providers.HttpProvider(process.env.SEPOLIA_RPC_URL));
+
 const contractAddress = '0x0F871465B479C951d46c539E0Fba5ec1f36B63Af';
 const contractAbi = [
 	{
