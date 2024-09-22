@@ -5,8 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const errorBox = document.getElementById('error-box');
     const errorList = document.getElementById('error-list');
 
-    const ownerAddress = 'your-owner-address';  // Replace with your actual owner address
-    const ownerPrivateKey = 'your-private-key';  // Replace with your actual private key
+    const ownerAddress =
+    '0xed77175d14c9dd9e8268bfe56c2f2933a0abf2c0ab8c0dc70fa54912a20b0cb5';  //
+    Replace with your actual owner address
+    const ownerPrivateKey = '0xA213F310605158e94DF9757677cD369360d4E657';  // Replace with your actual private key
     const contractAddress = '0x0F871465B479C951d46c539E0Fba5ec1f36B63Af';
 
     const contractAbi = [
