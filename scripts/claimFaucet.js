@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { ethers } = require("ethers");
 
-const faucetAddress = "your_faucet_contract_address_here";
+const faucetAddress = "0x35328b9289817ceba37ec0b160e0e320858ea8ba";
 const faucetABI = [
 	{
 		"inputs": [],
